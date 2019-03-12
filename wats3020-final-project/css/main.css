@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-color: rgb(196, 195, 172);
+}
+
+.day-container {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: .5em;
+  color: blue;
+  border: 10px solid rgb(196, 195, 172);
+  text-align: center;
+  padding: 2em;
+  position: relative;
+}
+
+.day-container:hover{
+  background-color: rgb(196, 195, 172);
+}
+
+h2{
+  border: 2px solid;
+}
+
+.monday {
+border: 5px solid grey;
+width: 50%;
+}
+
+.tuesday {
+  border: 5px solid grey;
+  width: 50%;
+}
+
+.wednesday {
+  border: 5px solid grey;
+  width: 50%;
+}
+
+.thursday {
+  border: 5px solid grey;
+  width: 50%;
+}
+
+.friday {
+  border: 5px solid grey;
+  width: 50%;
+}
+
+.saturday {
+  border: 5px solid grey;
+  width: 50%;
+}
+
+.sunday {
+  border: 5px solid grey;
+  width: 50%;
+}
+
+/* testing hover function; would be neat to add button to each day 
+.monday:hover {
+  background-color: rgb(182, 178, 178);
+}
+*/
+
+/* applies to the headings*/
+.head-container {
+  margin: 1em 5em 1em 5em;
+  border: 5px solid;
+  text-align: center;
+}
+.head-container:hover {
+  background-color: rgb(182, 178, 178);
+}
+/* applies to the whole user input/ form area */
+.form-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  border: 5px solid;
+  padding: 0.25em;
+}
+
+/* applies to the select a day form*/
+.day{
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+/* applies to the user form and submit button */
+.user-form {
+}
+
