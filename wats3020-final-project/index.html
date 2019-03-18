@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Planner</title>
+  <title>Weekly Planner</title>
   <link rel="stylesheet" href="css/main.css">
-  <script src="js/main.js" defer></script>
+  <script src="js/main.js" async></script>
 </head>
-
 <body>
   <div class="head-container">
-    <h1>Daily Planner</h1>
-    <h2 name="day-header" class="day-header">Today is " "</h2>
+    <h1>Weekly Planner</h1>
+    <h3 name="day-header" class="day-header">Today is " "</h3>
   </div>
+  <p>
+    Enter a piece of text to add, select the day, submit!
+  </p>
   <div class="form-container">
-    <p>
-      Enter a piece of text to add, select the day, submit!
-    </p>
     <form name="user-form" class="user-form">
-        <label for="user-input">
-          <input type="text" name="user-input">
-        </label>
-        <input type="submit" id="submit">
-      </form>
+      <label for="user-input">
+        <input type="text" name="user-input">
+      </label>
+      <input type="submit" id="submit">
+    </form>
     <select name="day" class="day">
       <option value="monday">Monday</option>
       <option value="tuesday">Tuesday</option>
@@ -37,37 +35,37 @@
   <div class="day-container">
     <div name="monday" class="monday">
       <h2>Monday</h2>
-      <ul>
+      <ul class="monday-list">
       </ul>
     </div>
     <div name="tuesday" class="tuesday">
       <h2>Tuesday</h2>
-      <ul>
+      <ul class ="tuesday-list">
       </ul>
     </div>
     <div name="wednesday" class="wednesday">
       <h2>Wednesday</h2>
-      <ul>
+      <ul class="wednesday-list">
       </ul>
     </div>
     <div name="thursday" class="thursday">
       <h2>Thursday</h2>
-      <ul>
+      <ul class="thursday-list">
       </ul>
     </div>
     <div name="friday" class="friday">
       <h2>Friday</h2>
-      <ul>
+      <ul class="friday-list">
       </ul>
     </div>
     <div name="saturday" class="saturday">
       <h2>Saturday</h2>
-      <ul>
+      <ul class="saturday-list">
       </ul>
     </div>
     <div name="sunday" class="sunday">
       <h2>Sunday</h2>
-      <ul>
+      <ul class="sunday-list">
       </ul>
     </div>
   </div>
